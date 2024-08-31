@@ -1,0 +1,63 @@
+body{
+    background-color: #393E46;;
+    color: white;
+    color: yellow;
+}
+
+h1{
+    font-size: 7rem;
+    margin: 20px;
+    padding: 0;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+p{
+    font-size: 2rem;
+    font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img{
+    width: 14vw;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h5{
+    font-size: 3rem;
+}
+
+@media(max-width: 560px){
+    h1{
+        font-size: 3rem;
+    }
+    .second-div{
+        flex-direction: column;
+        gap: 0;
+    }
+    img{
+        width: 40vw;
+    }
+}
